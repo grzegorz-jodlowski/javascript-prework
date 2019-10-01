@@ -29,3 +29,21 @@ if (playerInput == '1') {
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if (computerMove == 'kamień' && playerMove == 'papier') {
+    printMessage('Ty wygrywasz! fart...');
+} else if (computerMove == 'kamień' && playerMove == 'nożyce') {
+    printMessage('Wygrałem! Słaby człowiek!');
+} else if (computerMove == 'papier' && playerMove == 'nożyce') {
+    printMessage('Wygrałeś, ostatni raz!');
+} else if (computerMove == 'papier' && playerMove == 'kamień') {
+    printMessage('Taaaaak! wygrałem!');
+} else if (computerMove == 'nożyce' && playerMove == 'kamień') {
+    printMessage('Oszukujesz? to niemożliwe... wygrałeś :(');
+} else if (computerMove == 'nożyce' && playerMove == 'papier') {
+    printMessage('Ołłłł jeee, jestem lepszy! :)');
+} else if (computerMove == playerMove) {
+    printMessage('Remis - jeszcze raz');
+} else {
+    printMessage('coś źle wpisałeś...');
+}
