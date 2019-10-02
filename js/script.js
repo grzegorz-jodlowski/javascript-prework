@@ -20,16 +20,22 @@ function playGame(argPlayerMove) {
     function displayResult(argComputerMove, argPlayerMove) {
         if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
             printMessage('Ty wygrywasz! fart...');
+            playerWins++;
         } else if (argComputerMove == 'kamień' && argPlayerMove == 'nożyce') {
             printMessage('Wygrałem! Słaby człowiek!');
+            computerWins++;
         } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
             printMessage('Wygrałeś, ostatni raz!');
+            playerWins++;
         } else if (argComputerMove == 'papier' && argPlayerMove == 'kamień') {
             printMessage('Taaaaak! wygrałem!');
+            computerWins++;
         } else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
             printMessage('Oszukujesz? niemożliwe... wygrałeś!');
+            playerWins++;
         } else if (argComputerMove == 'nożyce' && argPlayerMove == 'papier') {
             printMessage('Ołłłł jeee, jestem lepszy! :)');
+            computerWins++;
         } else if (argComputerMove == argPlayerMove) {
             printMessage('Remis - jeszcze raz');
         } else {
@@ -54,7 +60,12 @@ function playGame(argPlayerMove) {
     printMessage('Twój ruch to: ' + playerMove);
 
     displayResult(computerMove, playerMove);
+
+    printScore('Mój wynik: ' + computerWins + '<br>Twój wynik: ' + playerWins);
 }
+
+let playerWins = 0;
+let computerWins = 0;
 
 document.getElementById('play-rock').addEventListener('click', function () {
     playGame(1);
@@ -67,3 +78,4 @@ document.getElementById('play-paper').addEventListener('click', function () {
 document.getElementById('play-scissors').addEventListener('click', function () {
     playGame(3);
 });
+
