@@ -27,7 +27,7 @@ function playGame(argPlayerMove) {
         } else if (argComputerMove == 'papier' && argPlayerMove == 'kamień') {
             printMessage('Taaaaak! wygrałem!');
         } else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
-            printMessage('Oszukujesz? to niemożliwe... wygrałeś :(');
+            printMessage('Oszukujesz? niemożliwe... wygrałeś!');
         } else if (argComputerMove == 'nożyce' && argPlayerMove == 'papier') {
             printMessage('Ołłłł jeee, jestem lepszy! :)');
         } else if (argComputerMove == argPlayerMove) {

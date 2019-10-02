@@ -1,6 +1,7 @@
 /*Global*/
 
-*,*::before,
+*,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -9,7 +10,8 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.7;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+  background: white;
   color: black;
 }
 
@@ -24,17 +26,42 @@ body {
 }
 
 .message-box {
-    min-height: 200px;
-    max-width: 400px;
-
-
+  height: 200px;
+  width: 400px;
+  background: #74b9ff;
+  box-shadow: 0 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    font-size: 24px;
+  }
 }
 
 .button-box {
-    min-height: 200px;
-    max-width: 400px;
-    a {
-        font-size: 72px;
-        margin: 20px;
-    }
+  min-height: 200px;
+  max-width: 600px;
+  a {
+    font-size: 96px;
+    margin: 20px;
+  }
+}
+
+.fas {
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.4);
+  }
+}
+
+#play-rock {
+  color: #1b1464;
+}
+
+#play-scissors {
+  color: #6c5ce7;
+}
+
+#play-paper {
+  color: #ffeaa7;
 }
