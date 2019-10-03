@@ -28,6 +28,10 @@ body {
       justify-content: center;
 }
 
+.container h1 {
+  animation: framePulse 2s infinite;
+}
+
 .message-box {
   height: 200px;
   width: 400px;
@@ -79,4 +83,3 @@ body {
   height: 200px;
   font-size: 48px;
 }
-/*# sourceMappingURL=style.css.map */
