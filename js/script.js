@@ -47,7 +47,7 @@
         };
 
         console.log(displayResult);
-        printMessage(displayResult);
+        printMessage(displayResult(computerMove, playerMove));
 
         printScore('Mój wynik: ' + computerWins + '<br>Twój wynik: ' + playerWins);
 
