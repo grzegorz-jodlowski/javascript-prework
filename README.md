@@ -1,10 +1,10 @@
 <p align="center">
-<a href="https://grzegorz-jodlowski.github.io/javascript-blog/"><img src="logo.jpg" title="logo" alt=""></a>
+<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/"><img src="logo.jpg" title="logo" alt=""></a>
 </p>
 
 
 
-# <p align="center">📖 JS Blog</p>
+# <p align="center">✂ Rock-paper–scissors game</p>
 <p align="center">Project </p>
 
 </br>
@@ -51,6 +51,6 @@ This
 </br>
 
 ## <a name="gitHub"></a>GitHub Pages
-<a href="https://grzegorz-jodlowski.github.io/javascript-blog/">JS Blog</a>
+<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/">Rock-paper–scissors game</a>
 
 
