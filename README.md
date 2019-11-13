@@ -21,7 +21,7 @@
 
 ## <a name="about"></a>What's this project about?
 
-Simple, old-school rock-paper-scissors game written in pure JS (Vanilla JS). The opponent in the game is a computer that randomly chooses its move.
+Simple, old-school rock-paper-scissors game written in Vanilla JS. The opponent in the game is a computer that randomly chooses its move.
 
 </br>
 
