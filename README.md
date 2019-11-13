@@ -1,11 +1,11 @@
 <p align="center">
-<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/"><img src="logo.jpg" title="logo" alt=""></a>
+<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/"><img src="logo7.jpg" title="logo" alt="three hands shows rock paper and scissors"></a>
 </p>
 
 
 
 # <p align="center">✂ Rock-paper–scissors game</p>
-<p align="center">Project </p>
+<p align="center">Project for learning basic JavaScript and algorithms</p>
 
 </br>
 
@@ -21,7 +21,7 @@
 
 ## <a name="about"></a>What's this project about?
 
-This
+Simple, old-school rock-paper-scissors game written in pure JS (Vanilla JS). The opponent in the game is a computer that randomly chooses its move.
 
 </br>
 
@@ -30,6 +30,8 @@ This
 - CSS
 - SCSS
 - JavaScript
+- npm
+- GIT
 
 </br>
 
