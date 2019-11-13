@@ -36,18 +36,30 @@ Simple, old-school rock-paper-scissors game written in pure JS (Vanilla JS). The
 </br>
 
 ## <a name="what"></a>What I learned?
-- w
+- basic information about algorithms,
+- how to practice algorithmic thinking,
+- way the JS engine works and how the code is read by the browser,
+- name variables and functions correctly,
+- design a simple application structure,
+- create loops, conditional statements and functions in JS,
+- use named, anonymous and arrow functions,
+- create event listeners,
+- use built-in functionalities in JS,
+- scope characteristics especially for variable types: let, const (and old friend var),
+- about strict mode,
+- learn using the pomodoro technique and debug code by Rubber duck debugging method, 😉
 
 
 
 </br>
 
 ## <a name="interesting"></a>Interesting code snippet (for me of course 😉)
-- c
+- add simple event listener to DOM element
 
-```css
-
-}
+```javascript
+document.getElementById('play-rock').addEventListener('click', function () {
+    playGame(1);
+});
 ```
 
 </br>
