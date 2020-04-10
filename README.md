@@ -15,7 +15,9 @@
 - [Technologies used](#technologies)
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
-- [GitHub Pages](#gitHub)
+- [Installation](#install)
+- [NPM scripts](#scripts)
+- [Website (on GitHub Pages)](#site)
 
 </br>
 
@@ -64,7 +66,37 @@ document.getElementById('play-rock').addEventListener('click', function () {
 
 </br>
 
-## <a name="gitHub"></a>GitHub Pages
+## <a name="install"></a>Installation and quick start
+
+- use the package manager [npm](https://www.npmjs.com/get-npm) to install dependencies:
+
+```bash
+npm install
+
+or
+
+npm i
+```
+- run watch mode to start the server, constantly refreshing and more:
+
+```bash
+npm run watch
+```
+
+<br/>
+
+
+## <a name="scripts"></a>NPM scripts
+
+There are 3 main scripts to speed up work:
+
+- `build`: builds a project,
+- `watch`: observes changes and starts working preview,
+- `test`: starting the tests of html and CSS structure,
+
+<br/>
+
+## <a name="site"></a>Website (on GitHub Pages)
 <a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/">Rock-paper–scissors game</a>
 
 </br>
