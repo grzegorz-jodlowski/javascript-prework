@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: white;
   color: black;
 }
@@ -31,10 +31,13 @@ body {
 .message-box {
   height: 200px;
   width: 400px;
-  background: #74b9ff;
-  box-shadow: 0 0 10px;
+  margin-top: 50px;
+  border: 1.5px solid #888;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   display: -ms-flexbox;
   display: flex;
+  border-radius: 5px;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
@@ -46,37 +49,52 @@ body {
 }
 
 .button-box {
-  min-height: 200px;
-  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 40%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 2rem;
 }
 
 .button-box a {
-  font-size: 96px;
-  margin: 20px;
+  height: 100%;
+  width: 25%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
-.fas {
-  transition: all 0.5s;
+.button-box a:hover {
+  transform: scale(1.05);
 }
 
-.fas:hover {
-  transform: scale(1.4);
+.button-box a img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#play-rock {
-  color: #1b1464;
+#player-result,
+#comp-result {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  font-size: 24px;
 }
 
-#play-scissors {
-  color: #6c5ce7;
-}
-
-#play-paper {
-  color: #ffeaa7;
-}
-
-.result {
-  height: 200px;
-  font-size: 48px;
+#comp-result {
+  top: 0;
+  left: auto;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */
