@@ -48,6 +48,12 @@ body {
   font-size: 24px;
 }
 
+@media (max-width: 780px) {
+  .message-box {
+    width: 300px;
+  }
+}
+
 .button-box {
   width: 100%;
   position: fixed;
@@ -60,6 +66,12 @@ body {
   padding: 0 2rem;
 }
 
+@media (max-width: 600px) {
+  .button-box {
+    padding: 0;
+  }
+}
+
 .button-box a {
   height: 100%;
   width: 25%;
@@ -70,6 +82,12 @@ body {
   display: flex;
   -ms-flex-align: end;
       align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .button-box a {
+    width: 33%;
+  }
 }
 
 .button-box a:hover {
@@ -86,15 +104,37 @@ body {
 #player-result,
 #comp-result {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 25%;
+  left: 15%;
   padding: 16px;
-  font-size: 24px;
+  font-size: 36px;
+  z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  #player-result,
+  #comp-result {
+    left: 5%;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 780px) {
+  #player-result,
+  #comp-result {
+    top: 65%;
+  }
 }
 
 #comp-result {
-  top: 0;
   left: auto;
-  right: 0;
+  right: 15%;
+}
+
+@media (max-width: 1024px) {
+  #comp-result {
+    right: 5%;
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
