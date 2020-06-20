@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/"><img src="logo7.jpg" title="logo" alt="three hands shows rock paper and scissors"></a>
+<a href="https://grzegorz-jodlowski.github.io/rock-paper-scissors-game/"><img src="images/logo7.jpg" title="logo" alt="three hands shows rock paper and scissors"></a>
 </p>
 
 
